@@ -1,0 +1,49 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 40px;
+    font-size: 110%;
+}
+
+h1 {
+    color: hsla(180, 100%, 25%,1);
+}
+
+h2{
+    color: #651717;
+}
+
+p {
+    line-height: 1.5;
+    font-size:  120%;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}  
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+pre{
+    color: #651717;
+    font-size:  200%;
+    background-image: url('resources/nas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
